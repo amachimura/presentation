@@ -1,0 +1,1 @@
+pandoc -s -t revealjs -i -V theme:default -o dis-jqm.html dis-jqm.md
