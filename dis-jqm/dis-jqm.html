@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title></title>
+  <meta name="author" content="Akira Machimura" />
+  <title>ここがヘンだよJQuery Mobile</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -19,12 +20,89 @@
   <div class="reveal">
     <div class="slides">
 
+<section>
+    <h1 class="title">ここがヘンだよJQuery Mobile</h1>
+    <h2 class="author">Akira Machimura</h2>
+    <h3 class="date">2014.11.26</h3>
+</section>
 
-<section><section id="ここがヘンだよjquery-mobile" class="titleslide slide level1"><h1>ここがヘンだよJQuery Mobile</h1></section><section class="slide level2">
+<section><section id="jquery-mobile紹介" class="titleslide slide level1"><h1>JQuery mobile紹介</h1></section><section class="slide level2">
 
-<h3 id="hogepiyo">hogepiyo</h3>
-<h3 id="観点">観点</h3>
-<p>-開発の容易さ -保守の容易さ -デザイナーの参画可能性</p>
+<h3 id="基本的な機構">基本的な機構</h3>
+<ul>
+<li class="fragment">html5の&quot;data-*&quot;属性をフルに使ったフレームワーク</li>
+<li class="fragment">viewportを利用したレスポンシブデザイン</li>
+<li class="fragment">特徴的な&quot;data-role='page'&quot;</li>
+<li class="fragment">monaca, dreamweaverなど、親和性のある開発環境は意外と多い</li>
+<li class="fragment">「スマートフォン」に特化している</li>
+</ul>
+</section></section>
+<section><section id="jquery-mobileのステキなところ" class="titleslide slide level1"><h1>JQuery mobileのステキなところ</h1></section><section class="slide level2">
+
+<h3 id="ここがイチオシ">ここがイチオシ</h3>
+<p>1 大量のブラウザに対応 2 エフェクトがかっこいい 3 オプションが豊富で、「コンポーネント活かし」のデザインに適する</p>
+</section><section class="slide level2">
+
+<h3 id="マルチブラウザ対応">1.マルチブラウザ対応</h3>
+<ul>
+<li class="fragment">幅広いブラウザに対応！（ちょっと前までは）</li>
+</ul>
+<p>http://jquerymobile.com/gbs/ http://getbootstrap.com/getting-started/#browsers</p>
+</section><section class="slide level2">
+
+<h3 id="かっこいいエフェクト3.豊富なオプション">2.かっこいいエフェクト+3.豊富なオプション</h3>
+<ul>
+<li class="fragment">基本的なマークアップ+オプションで簡単にそれっぽいデザインが可能</li>
+<li class="fragment">HTMLだけでデザインできるからすぐできる</li>
+</ul>
+</section></section>
+<section><section id="jquery-mobileのビミョウなところ" class="titleslide slide level1"><h1>JQuery mobileのビミョウなところ</h1></section><section class="slide level2">
+
+<h3 id="よく指摘される問題点">よく指摘される問題点</h3>
+<p>1 パフォーマンスに問題がある… 2 不具合が出やすい… 3 カスタマイズがしにくい 4 バージョンアップしにくい…</p>
+</section><section class="slide level2">
+
+<h3 id="パフォーマンスの問題">1.パフォーマンスの問題</h3>
+<ul>
+<li class="fragment">DOM大杉</li>
+</ul>
+<p>　→1.4で解消の方向に</p>
+</section><section class="slide level2">
+
+<h3 id="保守の難しさ">2.保守の難しさ</h3>
+<ul>
+<li class="fragment">動的なコンポーネント生成のとき、リフレッシュを手動で行わなければならない</li>
+<li class="fragment">1ファイルのコード量の増加</li>
+<li class="fragment">名前空間が実質ひとつ</li>
+</ul>
+</section><section class="slide level2">
+
+<h3 id="カスタマイズのしにくさ">3.カスタマイズのしにくさ</h3>
+<ul>
+<li class="fragment">jquery mobileが提供するテーマを使うのが基本</li>
+<li class="fragment">DOMが複雑でなかなか手を出しにくい</li>
+</ul>
+</section><section class="slide level2">
+
+<h3 id="徹底した下位切り捨て">4.徹底した下位切り捨て</h3>
+<p>1.3-&gt;1.4</p>
+<ul>
+<li class="fragment">かなり大幅に「CSSフレームワーク」化</li>
+<li class="fragment">マークアップによってはほぼ動かない</li>
+<li class="fragment">テーマも2種類に削減</li>
+</ul>
+</section></section>
+<section><section id="教訓" class="titleslide slide level1"><h1>教訓</h1></section><section class="slide level2">
+
+<h3 id="アプリ開発において重要なこと">アプリ開発において重要なこと</h3>
+<ul>
+<li class="fragment">開発の容易さ</li>
+<li class="fragment">保守の容易さ</li>
+<li class="fragment">デザイナーの参画可能性</li>
+</ul>
+</section><section class="slide level2">
+
+<h3 id="開発の容易さ">開発の容易さ</h3>
 </section></section>
     </div>
   </div>
