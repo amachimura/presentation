@@ -1,1 +1,1 @@
-pandoc -s -t revealjs -i -V theme:default -o dis-jqm.html dis-jqm.md
+pandoc -s -t revealjs -i -V theme:moon --slide-level=2 -o dis-jqm.html dis-jqm.md
